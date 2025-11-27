@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
+import { FileText } from "lucide-react"
 
 interface NavigationProps {
   activeSection: string
@@ -65,19 +66,33 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
           ))}
         </div>
 
-        <motion.a
-          href="#contact"
-          onClick={(e) => {
-            e.preventDefault()
-            setActiveSection("contact")
-            document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
-          }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="hidden sm:block px-6 py-2 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-medium hover:shadow-lg glow-accent transition-all"
-        >
-          Get in Touch
-        </motion.a>
+        <div className="flex gap-3 items-center">
+          <motion.a
+            href="https://docs.google.com/document/d/1Z_t5SVekinVi7Uthltj6wp8hCmBAnShZ/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-full border border-accent/40 text-accent font-medium hover:bg-accent/10 transition-all"
+          >
+            <FileText size={16} />
+            Resume
+          </motion.a>
+
+          <motion.a
+            href="#contact"
+            onClick={(e) => {
+              e.preventDefault()
+              setActiveSection("contact")
+              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+            }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="hidden sm:block px-6 py-2 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-medium hover:shadow-lg glow-accent transition-all"
+          >
+            Get in Touch
+          </motion.a>
+        </div>
       </div>
     </motion.nav>
   )

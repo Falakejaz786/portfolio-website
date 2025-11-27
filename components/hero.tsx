@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ChevronDown, Github, Linkedin } from "lucide-react"
+import { ChevronDown, Github, Linkedin, FileText } from "lucide-react"
 
 interface HeroProps {
   onNavigate: (section: string) => void
@@ -98,12 +98,15 @@ export default function Hero({ onNavigate }: HeroProps) {
                 View My Work
               </motion.button>
               <motion.a
-                href="#contact"
+                href="https://docs.google.com/document/d/1Z_t5SVekinVi7Uthltj6wp8hCmBAnShZ/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 rounded-full border border-accent/40 text-accent font-semibold hover:bg-accent/10 transition-all"
+                className="px-8 py-3 rounded-full border border-accent/40 text-accent font-semibold hover:bg-accent/10 transition-all flex items-center gap-2"
               >
-                Get in Touch
+                <FileText size={18} />
+                Resume
               </motion.a>
             </motion.div>
 
