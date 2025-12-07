@@ -135,10 +135,6 @@ export default function Education() {
                     <span className="text-accent font-bold">150</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">LeetCode</span>
-                    <span className="text-accent font-bold">305 Points</span>
-                  </div>
-                  <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">C++ Proficiency</span>
                     <span className="text-accent font-bold">Advanced</span>
                   </div>
