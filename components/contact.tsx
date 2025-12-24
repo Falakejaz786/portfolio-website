@@ -14,8 +14,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "falak.ejaz@example.com",
-      href: "mailto:falak.ejaz@example.com",
+      value: "falakejaz2004@gmail.com",
+      href: "mailto:falakejaz2004@gmail.com",
     },
   ]
 
@@ -55,7 +55,7 @@ export default function Contact() {
                     whileHover={{ x: 10 }}
                     className="flex items-start gap-4 group"
                   >
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center flex-shrink-0 group-hover:shadow-lg glow-accent transition-all">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center flex-shrink-0 group-hover:shadow-lg glow-neon transition-all">
                       <Icon size={20} className="text-primary-foreground" />
                     </div>
                     <div>
