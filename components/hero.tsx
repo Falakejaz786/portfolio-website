@@ -136,7 +136,7 @@ export default function Hero({ onNavigate }: HeroProps) {
           <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6">
             {[
               { label: "Projects", value: "10+" },
-              { label: "ATS Score", value: "86%" },
+              { label: "GPA", value: "8.65" },
               { label: "Languages", value: "3+" },
               { label: "Years", value: "KIIT 23-27" },
             ].map((stat, index) => (
