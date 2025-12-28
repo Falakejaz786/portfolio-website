@@ -98,7 +98,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 View My Work
               </motion.button>
               <motion.a
-                href="https://docs.google.com/document/d/1F0PHMoEauZybUxqMBT39tseY3BwVNDuD/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1yxyb80ZpTdcmr1oD6DDqZCXSqhgZHoxU/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
