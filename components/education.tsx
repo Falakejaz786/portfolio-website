@@ -21,8 +21,8 @@ export default function Education() {
     },
     {
       school: "Delhi Public School",
-      degree: "Secondary School (10th Grade)",
-      period: "2021",
+      degree: "High School (10th Grade)",
+      period: "2010 - 2021",
       description: "CBSE Class X — 93.20%",
       color: "from-accent to-teal-500",
     },
