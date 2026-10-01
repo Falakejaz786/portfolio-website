@@ -19,6 +19,13 @@ export default function Education() {
       description: "CBSE Class XII — 88.60%",
       color: "from-secondary to-cyan-500",
     },
+    {
+      school: "Delhi Public School",
+      degree: "Secondary School (10th Grade)",
+      period: "2021",
+      description: "CBSE Class X — 93.20%",
+      color: "from-accent to-teal-500",
+    },
   ]
 
   const achievements = [
@@ -131,8 +138,8 @@ export default function Education() {
                     <span className="text-accent font-bold">100+</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">NeetCode</span>
-                    <span className="text-accent font-bold">150</span>
+                    <span className="text-muted-foreground">LeetCode Rating</span>
+                    <span className="text-accent font-bold">1,630</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">C++ Proficiency</span>

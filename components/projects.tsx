@@ -23,18 +23,6 @@ export default function Projects() {
       tech: ["LightGBM", "XGBoost", "SHAP", "Scikit-learn"],
       highlights: ["92%+ Fraud Recall", "0.8269 PR-AUC", "30+ Features"],
     },
-    {
-      title: "Automated Book Pipeline",
-      description: "End-to-end automation: Scrape → Rewrite → Review → TTS. Reduces effort by 70% with 2-min pipeline.",
-      tech: ["Web Scraping", "TTS", "ChromaDB", "Automation"],
-      highlights: ["70% Effort Saved", "2-min Pipeline", "Full Automation"],
-    },
-    {
-      title: "E-commerce Image Generator",
-      description: "GAN-based product image generation. Generated outputs, processed 500+ images with virtual try-on.",
-      tech: ["GANs", "Deep Learning", "Image Processing", "PyTorch"],
-      highlights: ["500+ Processed", "Virtual Try-on"],
-    },
   ]
 
   const containerVariants = {

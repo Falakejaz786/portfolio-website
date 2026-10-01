@@ -6,7 +6,7 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "AI & ML",
-      skills: ["Machine Learning", "Deep Learning", "NLP", "LLMs", "GenAI", "Feature Engineering", "SHAP"],
+      skills: ["Machine Learning", "Deep Learning", "NLP", "LLMs", "GenAI", "Feature Engineering"],
       colorFrom: "from-primary",
       colorTo: "to-purple-600",
     },
@@ -17,14 +17,14 @@ export default function Skills() {
       colorTo: "to-blue-600",
     },
     {
-      category: "Computer Vision",
-      skills: ["Pandas", "NumPy", "Scikit-learn", "XGBoost", "LightGBM", "FAISS", "SentenceTransformers"],
+      category: "Data & ML",
+      skills: ["Pandas", "NumPy", "Scikit-learn", "XGBoost", "LightGBM", "SHAP", "FAISS", "SentenceTransformers"],
       colorFrom: "from-accent",
       colorTo: "to-cyan-500",
     },
     {
-      category: "Data & Tools",
-      skills: ["GitHub", "Paramiko", "WebSockets", "Unit Testing", "Structured Logging", "RAG"],
+      category: "Tools & Frameworks",
+      skills: ["GitHub"],
       colorFrom: "from-purple-500",
       colorTo: "to-pink-500",
     },

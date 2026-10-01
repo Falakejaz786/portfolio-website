@@ -79,12 +79,12 @@ export default function Hero({ onNavigate }: HeroProps) {
                 </span>
               </motion.h1>
               <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-muted-foreground font-light">
-                ML/AI Engineer & Software Developer
+                AI/ML & Python Engineer
               </motion.p>
             </div>
 
             <motion.p variants={itemVariants} className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I build production-ready AI systems across semantic search, automation, LLM applications, and machine learning — turning complex workflows into reliable software.
+              Specializing in AI/ML, Generative AI, LLMs, NLP, and Intelligent Backend Systems. Building scalable AI solutions that solve real-world problems.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 pt-4">
@@ -97,7 +97,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 View My Work
               </motion.button>
               <motion.a
-                href="https://blobs.vusercontent.net/blob/MyResume%281%29-qWXGxBQvMOnv1G2YVnxgiDskT4MHY8.pdf"
+                href="https://docs.google.com/document/d/1CrkVOQ0nrrYLjEwbv8NBi82rtFyKpyL7/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -136,7 +136,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             {[
               { label: "Projects", value: "3" },
               { label: "CGPA", value: "8.64" },
-              { label: "LeetCode", value: "1,605" },
+              { label: "LeetCode", value: "1,630" },
               { label: "Graduating", value: "2027" },
             ].map((stat, index) => (
               <motion.div
