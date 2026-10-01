@@ -6,34 +6,22 @@ export default function Projects() {
   const projects = [
     {
       title: "Agentic Code Analyzer",
-      description: "LLM-powered bug and logic analyzer with 92% accuracy on code analysis tasks.",
-      tech: ["LLMs", "Python", "FastAPI", "Static Analysis"],
-      deployed: "Render/Vercel",
-      highlights: ["92% Accuracy", "60% Efficiency Boost"],
+      description: "LLM-powered code analysis platform that detects bugs, optimizes logic, and evaluates complexity across multiple languages.",
+      tech: ["GPT-3.5", "FastAPI", "React.js", "Static Analysis"],
+      deployed: "Vercel",
+      highlights: ["92% Accuracy", "1,000+ Submissions", "30% Lower Latency"],
     },
     {
-      title: "AI CLI Assistant",
-      description: "Natural language command planner using LoRA/QLoRA fine-tuned models. Optimized for ≤2B parameters.",
-      tech: ["LoRA/QLoRA", "NLP", "CLI Tools", "Python"],
-      highlights: ["+35% BLEU", "+35% ROUGE", "Fine-tuned Model"],
+      title: "AI Command-Line Assistant",
+      description: "Natural-language command planner translating intent into executable workflows for more than 10 developer tools.",
+      tech: ["LoRA/QLoRA", "RAG", "NLP", "Python"],
+      highlights: ["+35% BLEU/ROUGE-L", "≤2B Parameters", "Dry-run Execution"],
     },
     {
-      title: "Player Re-ID System",
-      description: "Real-time player tracking using YOLOv11 and BoT-SORT. Custom trained with 720p/30FPS performance.",
-      tech: ["YOLOv11", "BoT-SORT", "OpenCV", "Custom Training"],
-      highlights: ["Real-time", "720p/30FPS", "Custom Training"],
-    },
-    {
-      title: "Automated Book Pipeline",
-      description: "End-to-end automation: Scrape → Rewrite → Review → TTS. Reduces effort by 70% with 2-min pipeline.",
-      tech: ["Web Scraping", "TTS", "ChromaDB", "Automation"],
-      highlights: ["70% Effort Saved", "2-min Pipeline", "Full Automation"],
-    },
-    {
-      title: "E-commerce Image Generator",
-      description: "GAN-based product image generation. Generated outputs, processed 500+ images with virtual try-on.",
-      tech: ["GANs", "Deep Learning", "Image Processing", "PyTorch"],
-      highlights: ["500+ Processed", "Virtual Try-on"],
+      title: "Credit Card Fraud Detection",
+      description: "Interpretable fraud detection pipeline trained on 280,000+ transactions with robust class-imbalance handling.",
+      tech: ["LightGBM", "XGBoost", "SHAP", "Scikit-learn"],
+      highlights: ["92%+ Fraud Recall", "0.8269 PR-AUC", "30+ Features"],
     },
   ]
 

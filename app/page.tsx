@@ -5,6 +5,7 @@ import { useState } from "react"
 import Hero from "@/components/hero"
 import Skills from "@/components/skills"
 import Projects from "@/components/projects"
+import Experience from "@/components/experience"
 import Education from "@/components/education"
 import Contact from "@/components/contact"
 import Navigation from "@/components/navigation"
@@ -38,6 +39,9 @@ export default function Home() {
         </div>
         <div id="projects" onMouseEnter={() => setActiveSection("projects")}>
           <Projects />
+        </div>
+        <div id="experience" onMouseEnter={() => setActiveSection("experience")}>
+          <Experience />
         </div>
         <div id="education" onMouseEnter={() => setActiveSection("education")}>
           <Education />
