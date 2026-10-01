@@ -79,13 +79,12 @@ export default function Hero({ onNavigate }: HeroProps) {
                 </span>
               </motion.h1>
               <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-muted-foreground font-light">
-                ML/AI Engineer & Full-Stack Developer
+                ML/AI Engineer & Software Developer
               </motion.p>
             </div>
 
             <motion.p variants={itemVariants} className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Specializing in LLMs, Computer Vision, NLP, and Web Scraping. Building intelligent systems that solve
-              real-world problems.
+              I build production-ready AI systems across semantic search, automation, LLM applications, and machine learning — turning complex workflows into reliable software.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 pt-4">
@@ -98,7 +97,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 View My Work
               </motion.button>
               <motion.a
-                href="https://docs.google.com/document/d/18pjHiOJF8JcEbW2cBWghfYdIlo3nUiWj/edit?usp=sharing&ouid=116656879714681051897&rtpof=true&sd=true"
+                href="https://blobs.vusercontent.net/blob/MyResume%281%29-qWXGxBQvMOnv1G2YVnxgiDskT4MHY8.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -135,10 +134,10 @@ export default function Hero({ onNavigate }: HeroProps) {
           {/* Right side - Stats */}
           <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6">
             {[
-              { label: "Projects", value: "10+" },
-              { label: "GPA", value: "8.65" },
-              { label: "Languages", value: "3+" },
-              { label: "Years", value: "KIIT 23-27" },
+              { label: "Projects", value: "3" },
+              { label: "CGPA", value: "8.64" },
+              { label: "LeetCode", value: "1,605" },
+              { label: "Graduating", value: "2027" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

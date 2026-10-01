@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Falak Ejaz - ML/AI Developer",
-  description: "ML/AI Engineer specializing in LLMs, Computer Vision, and Full-Stack development",
+  title: "Falak Ejaz | ML/AI Engineer",
+  description: "Portfolio of Falak Ejaz, an ML/AI engineer building RAG systems, LLM applications, automation tools, and production-ready machine learning solutions.",
   generator: "v0.app",
   icons: {
     icon: [

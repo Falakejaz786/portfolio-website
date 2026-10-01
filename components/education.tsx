@@ -8,15 +8,15 @@ export default function Education() {
       school: "Kalinga Institute of Industrial Technology (KIIT)",
       degree: "B.Tech in Computer Science & Engineering",
       period: "2023 - 2027",
-      cgpa: "CGPA: 8.65",
+      cgpa: "CGPA: 8.64",
       description: "Specialized in AI/ML with focus on LLMs and Computer Vision",
       color: "from-primary to-blue-500",
     },
     {
       school: "Delhi Public School",
       degree: "High School (12th Grade)",
-      period: "2010 - 2023",
-      description: "Built strong foundation in mathematics, physics, and computer science",
+      period: "2021 - 2023",
+      description: "CBSE Class XII — 88.60%",
       color: "from-secondary to-cyan-500",
     },
   ]
